@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.uni-padding{
+    padding: 0 20px;
+}
+
+body{
+    background-color: #f1f2f4;
+}
+
+
+
+
+/* ------------------------------------------------------------- */
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #19386b;
+    /* background: #2874f0; */
+    color: white;
+
+    border-bottom: 0.1px solid rgb(123, 123, 123);
+}
+
+#nav img{
+    width: 68px;
+}
+#nav input{
+    width: 500px;
+    height: 16px;
+    padding: 10px 5px;
+
+    margin-top: 12px;
+}
+
+#nav ul{
+    margin-top: 20px;
+}
+
+#nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px ;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------------------------------------------------------- */
+/* ------ category list items ------- */
+
+#cat-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 20px 0;
+    background: white;
+}
+.cat-item img{
+    width: 100px;
+}
+.cat-item h3{
+    text-align: center;
+}
+
+/* #category-list-section{
+    display: none;
+} */
+
+
+
+
+
+/* ------------------------------------------------------------- */
+
+#banner{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+/* ------------------------------------------------------------- */
+
+/* #electronics{
+    background-color: white; 
+    padding: 15px;
+} */
+
+#electronics #title{
+    background-color: white;
+    padding: 20px 10px;
+}
+
+#electronics div h2{
+    font-weight: 500;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 0 0 30px 0;
+}
+
+.items{
+    background-color: white;
+    padding: 10px;
+
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.items img{
+    width: 241px;
+}
+
+
+#sec-item{
+    padding: 10px 0;
+}
+
+#sec-item img{
+    margin-top: 74px;
+}
+#sec-item p{
+    margin-top: 36px;
+}
+
+#fifth-item p{
+    margin-top: 66px;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------- */
+
+#categories{
+    padding: 15px 0;
+    color: black;
+}
+
+#categories div{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px 0;
+}
+#categories p{
+    font-size: 20px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------- */
+
+p:hover a{
+    color: blue;
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* ------------------------------------------------------------- */
+
+#login-section{
+    padding: 10% 30%;
+}
+
+#Login-section div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#Login-section input{
+    width: 50%;
+    padding: 15px;
+    font-size: 15px;
+    margin: 15px;
+    border: none;
+    border-radius: 0;
+}
+
+#Login-section input[type="submit"]{
+    padding: 13px 10px;
+    width: 200px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(239, 104, 7);
+}
+
+
+/* ================================== */
+.payment-box{
+    display: none;
+}
+#payment-div{
+    display: none;
+}
+
